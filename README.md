@@ -1,7 +1,6 @@
 # BeookSolutions API
 
-A simplified, dockerized version of Beook Solutions.
-
+A simplified, dockerized version of [Beook Solutions](https://github.com/marekvonrogall/BeookSolutions).
 ## Installation
 
 ```bash
