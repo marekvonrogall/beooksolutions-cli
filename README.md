@@ -1,20 +1,14 @@
-# BeookSolutions CLI
+# BeookSolutions API
 
-This repository is a **mirror** of the `src/BeookSolutions` folder from the monorepo:
-
-https://github.com/marekvonrogall/tools/tree/main/src/BeookSolutions
-
-It exists to let users clone and use this project easily without downloading the entire monorepo.
-
----
+A simplified, dockerized version of Beook Solutions.
 
 ## Installation
 
 ```bash
-git clone https://github.com/marekvonrogall/beooksolutions-cli.git
-cd beooksolutions-cli
-docker build -t beooksolutions-cli .
-docker run -it -p 5000:5000 beooksolutions-cli
+git clone https://github.com/marekvonrogall/beooksolutions-api.git
+cd beooksolutions-api
+docker build -t beooksolutions-api .
+docker run -it -p 5000:5000 beooksolutions-api
 ```
 
 ## Usage
